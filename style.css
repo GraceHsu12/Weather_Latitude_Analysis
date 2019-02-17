@@ -1,0 +1,86 @@
+/*Custom navbar background color*/
+.navbar-custom {
+	background-color: grey;
+}
+
+body {
+	background-color: #E4E4E4;
+}
+
+.navbar-brand {
+	background: #46B49E;
+	font-size: 25px;
+}
+
+.navbar-default .brand-name {
+	color: white;
+	margin-left:10%;
+}
+
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 50px;
+}
+
+.dropdown-toggle {
+	color: black;
+}
+
+.navbar-collapse.in {
+	overflow-y: hidden;
+}
+
+
+.banner1 {
+	background: white;
+	padding: 30px 50px;
+	margin: 20px 10px;
+}
+
+.banner2 {
+	background: white;
+	padding:5% 5%;
+}
+
+h1 {
+	color: #46B49E;
+}
+
+p {
+	line-height: 200%;
+}
+
+table {
+	display: block;
+	overflow-x: auto;
+	white-space: nowrap;
+	border-style: hidden;
+}
+
+.img-with-text {
+	width: 100%;
+}
+ .text-align-center {
+ 	text-align: center;
+ 	vertical-align: text-top;
+ 	font-size: 28px;
+ 	color: #46B49E;
+ }
+
+.float-img {
+	float:left;
+	clear:right;
+	margin-right: 10px;
+	margin-bottom:10px;
+	width: 40%;
+	height: 50%;
+}
+
+.summary-images {
+	width: 90%;
+	height: auto;
+}
+
+.img-responsive {
+	width: 100%;
+	height: auto;
+}

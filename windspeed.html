@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Latitude Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css"> 
+
+</head>
+
+
+<body>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand brand-name" href="index.html"><strong>Latitude</strong></a>
+	    </div>
+
+	    <div class="collapse navbar-collapse" id="myNavbar">	       
+	      <ul class="nav navbar-nav navbar-right">
+	      	<li class="dropdown">
+	          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots<span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="maxTemp.html">Max Temperature</a></li>
+	            <li><a href="humidity.html">Humidity</a></li>
+	            <li><a href="cloudiness.html">Cloudiness</a></li>
+	            <li><a href="windspeed.html">Wind Speed</a></li>
+	          </ul>
+	        </li>
+	        <li><a href="comparisons.html">Comparison</a></li>
+	        <li><a href="data.html">Data</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	  
+  <div class="container-fluid">
+	<div class="row">
+	  <div class="col-md-8">
+	  	<div class="banner1">
+		  	<p>
+			  <h1><strong>Summary: Latitude vs. Wind Speed</strong></h1>
+			  <hr>
+			  <img src="Resources/assets/images/Fig4.png" class="summary-images">
+			  	<p>There is no strong relationship between latitude and wind speed. However, in the northern hemisphere, there is a larger group of cities with wind speeds over 20 mph.</p>
+		
+			</p>
+		</div>
+	  </div>
+
+
+<div class="col-md-4 col-sm-12">
+		<div class="banner1">
+  		<h1><strong>Visualizations</strong></h1>
+  		<hr>
+			<div class="row">
+				<div class="col-md-6 col-sm-3 col-xs-3">
+	
+		  			<a href="maxTemp.html">
+						<img src="Resources/assets/images/Fig1.png" class="img-responsive">
+					</a>
+				</div>
+				<div class="col-md-6 col-sm-3 col-xs-3">
+					<a href="humidity.html">
+						<img src="Resources/assets/images/Fig2.png" class="img-responsive">
+					</a>
+				</div>
+				<div class="col-md-6 col-sm-3 col-xs-3">
+					<a href="cloudiness.html">
+						<img src="Resources/assets/images/Fig3.png" class="img-responsive">
+					</a>
+				</div>
+				<div class="col-md-6 col-sm-3 col-xs-3">
+					<a href="windspeed.html">
+						<img src="Resources/assets/images/Fig4.png" class="img-responsive">
+					</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+</div>
+
+
+	  </body>
+	  </html>
